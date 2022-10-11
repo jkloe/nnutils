@@ -2,7 +2,8 @@
 #include <c10/core/Device.h>
 #include <c10/core/DeviceGuard.h>
 #include <nnutils/gpu/mask_image_from_size.h>
-#include <THC/THC.h>
+//#include <THC/THC.h>
+#include <c10/cuda/CUDAStream.h>
 
 #include <cstdint>
 

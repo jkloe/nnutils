@@ -2,7 +2,8 @@
 #include <c10/core/Device.h>
 #include <c10/core/DeviceGuard.h>
 #include <nnutils/gpu/adaptive_avgpool_2d.h>
-#include <THC/THC.h>
+//#include <THC/THC.h>
+#include <c10/cuda/CUDAStream.h>
 
 #include <cstdint>
 
